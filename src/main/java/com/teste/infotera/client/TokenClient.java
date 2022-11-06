@@ -21,8 +21,7 @@ public class TokenClient {
 	public static final String RESOURCE_PATH = "/authenticate";
 	@Autowired
 	InputToken inputToken;
-	@Autowired
-	UriClient uri;
+	
 
 	public TokenDTO getAcessToken() {
 		URI resourceUri = URI.create(UriClient.getUri() + RESOURCE_PATH);

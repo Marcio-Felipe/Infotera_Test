@@ -25,9 +25,7 @@ public class HotelClient {
 
 	@Autowired
 	TokenClient tokenCLient;
-	@Autowired
-	UriClient uri;
-
+	
 
 
 	public ResultHotelAvailDTO getHotels(Long destination, String start, String end, Long occupancy) {
